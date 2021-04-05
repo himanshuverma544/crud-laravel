@@ -1,0 +1,111 @@
+body {
+    font-size: 19px;
+}
+h1 {
+    text-align:center;
+    border: 3px solid black;
+    width: 850px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+table{
+    width: 65%;
+    height: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th {
+    background-color: #f2f2f2;
+}
+th.th_center {
+    text-align: center;
+}
+th, td {
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:nth-child(odd){
+    background-color: #f2f2f2;
+    }
+tr:hover {
+    background: #bdbcbc;
+}
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+}
+.del_btn {
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    margin-top: 8px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+    text-align: center;
+}
+td.edit_btn:active{
+    border: 2px solid black;
+}
+.del_btn:active{
+    border: 2px solid black;
+}
+.create_btn {
+  background-color: #4c7aaf;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-left: 250px;
+}
+.msg_positive {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+.msg_negative {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #763c3c; 
+    background: #f0d8d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+.msg_neutral {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c5076; 
+    background: #d8e0f0; 
+    border: 1px solid #3c4b76;
+    width: 50%;
+    text-align: center;
+}
+/* .pagination{
+    text-align: center;
+}
+.w-5{
+    width: 25px;
+} */
